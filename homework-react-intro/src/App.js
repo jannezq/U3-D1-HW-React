@@ -15,8 +15,9 @@ function App() {
         <ButtonComponent labelContent="First React Button!" />
 
         <ImageComponent
-          imageSource="https://placekitten.com/400/300"
+          imageSource="https://placekitten.com/400"
           altContent="Random Kitten PlaceHolder for developers"
+          placeholderArea="imageCss"
         />
 
         <a
