@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ButtonComponent from "./NewComponents/ButtonComponent";
+import ImageComponent from "./NewComponents/ImageComponents";
 
 function App() {
   return (
@@ -9,6 +11,14 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <ButtonComponent labelContent="First React Button!" />
+
+        <ImageComponent
+          imageSource="https://placekitten.com/400/300"
+          altContent="Random Kitten PlaceHolder for developers"
+        />
+
         <a
           className="App-link"
           href="https://reactjs.org"
