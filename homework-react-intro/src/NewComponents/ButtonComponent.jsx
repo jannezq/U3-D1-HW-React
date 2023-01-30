@@ -1,8 +1,14 @@
 const ButtonComponent = (props) =>{
 
+    const showAlert = () =>{
+
+        alert("You pressed the button!")
+
+    }
+
     return(
         <div>
-            <button className="buttonArea">{props.labelContent}</button>
+            <button onClick={showAlert} className="buttonArea">{props.labelContent}</button>
         </div>
     )
 }
