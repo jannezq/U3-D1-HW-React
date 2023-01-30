@@ -9,12 +9,17 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        <ButtonComponent labelContent="First React Button!" />
+        <ButtonComponent
+          h1content="This is the homework for today!"
+          labelContent="First React Button!"
+          hoverCss="hovering"
+        />
 
         <ImageComponent
           imageSource="https://placekitten.com/400"
           altContent="Random Kitten PlaceHolder for developers"
           placeholderArea="imageCss"
+          hoverCss="hovering"
         />
 
         <p>

@@ -60,10 +60,17 @@
   border-radius: 50%;
   margin: 10px;
   border: 5px solid cornflowerblue;
-  transition: transform ease-in-out 0.3s;
+  transition: transform ease-in-out 0.4s;
 }
 
 .imageCss:hover {
   transform: scale(1.5);
   border: 5px solid #61dafb;
+}
+
+.textArea {
+  width: 50%;
+  margin-inline: auto;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
 }
